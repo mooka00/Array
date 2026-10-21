@@ -41,9 +41,6 @@ while (counter < userChoices.length) {
         player++
     }
     x ++
-    
-    
-    
     userChoices.shift()
 }
 console.log(`Игрок - компьютер: ${player} - ${computer}`)
