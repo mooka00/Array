@@ -10,7 +10,7 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-while (x > 0){
+ while (x > 0){
     let random2 = (getRandomInt(5))
     userChoices.push(choices[random2])
     x -=1
