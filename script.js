@@ -1,7 +1,7 @@
 const choices = ['Камень', 'Ножницы', 'Бумага', 'Ящерица', 'Спок']
 
 let userChoices = []
-let x = 5
+let x = 10
 let computer = 0
 let player = 0
 let tie = 0
@@ -43,4 +43,5 @@ while (counter < userChoices.length) {
     x ++
     userChoices.shift()
 }
-console.log(`Игрок - компьютер: ${player} - ${computer}`)
+console.log(`Игрок - компьютер `,)
+console.log(" ", player,'  -   ', computer)
